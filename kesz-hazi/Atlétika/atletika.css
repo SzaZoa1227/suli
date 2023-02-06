@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    text-align: justify;
+}
+p{
+    line-height: 100%;
+    margin-bottom: 6pt;
+}
+.tartalom{
+    width: 210mm;
+    padding: 2.1cm;
+    margin:0 auto;
+    border: 1pt solid black;
+}
+header{
+    height: 4cm;
+    border: 1px solid red;
+}
+h1{
+    font-family: 'Times New Roman';
+    font-size: 36pt;
+    font-variant: small-caps;
+    font-weight: 700;
+    float: left;
+    margin-top: calc((4cm - 36pt)/2);
+}
+header img{
+    height: 2.5cm;
+    float: right;
+    transform: scaleX(-1);
+    margin-left:-20px;
+    margin-top: calc((4cm - 2.5cm)/2)
+}
+h2{
+    font-size: 14pt;
+    font-variant: small-caps;
+    font-weight: bold;
+    border-bottom: 1.5pt dotted black;
+    margin-bottom: 6pt;
+}
+li{
+    list-style-image: url('jel.png');
+    list-style-position: inside;
+}
+.zsivoczky{
+    float:right;
+    width: 8cm;
+    border: 1px solid black;
+    margin-left: 1em;
+}
+#labjegyzet{
+    text-decoration: overline;
+}
+a:link, a:active, a:visited, a:hover{
+    color: black;
+    text-decoration: none;
+}
+.kepek{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kepek p{
+    text-align: center;
+}
+
+.kepek img{
+    height: 4.4cm;
+    border: 1px solid black;    
+}
+#utolso{
+    width: 80%;
+    margin: 2em auto 2em auto;
+    border: 2px solid black;
+    background-color: #999;
+    padding: 4pt;
+    position: relative;
+	height:130px;
+    top: -140px;
+}
+.haromszog{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: #999;
+    rotate: 35deg;
+    position: relative;
+    left: 150px;
+	z-index: -1;
+}
