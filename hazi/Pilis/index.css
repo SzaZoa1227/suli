@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    line-height: 150%;
+    font-size: 13pt;
+    color: #657030;
+}
+footer{
+    background-color: #203926;
+    color:white;
+    font-size: 11px;
+}
+.container{
+    width:900px;
+    background-color: white;
+    margin: 0 auto;
+}
+header{
+    height:240px;
+    background-color: lightgreen;
+    color: green;
+    font-size: 80px;
+    text-align: center;
+    display:flex;
+}
+aside{
+    width:180px;
+}
+ul{
+    list-style-type:none;
+}

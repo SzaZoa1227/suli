@@ -1,0 +1,31 @@
+body { 
+    width: 400px;
+    margin: 0 auto;
+ }
+
+#elsofelsorolas{
+    background-color: magenta;
+    list-style-type: circle;
+}
+
+#elsofelsorolas > li{
+    background-color: black;
+    color:white;
+    padding-left: 1em;
+}
+.border{
+    border: 1px black solid;
+    margin: 1em 0;
+    padding: 1em;
+}
+#masodikfelsorolas{
+    list-style-image:url(filmszalag.jpg)
+}
+ol{
+    list-style-type: none;
+}
+ol > li{
+    display: inline;
+    border-right: red 2px solid;
+    padding-right: 1em;
+}
