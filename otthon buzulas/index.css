@@ -66,11 +66,9 @@ footer {
   margin: 5px;
   padding: 5px;
   text-align: center;
-  background-color: lightblue;
 }
 
 button {
-  background-color: lightblue;
   border: 1px solid lightgray;
   transition-duration: 500ms;
 }
@@ -97,13 +95,6 @@ td {
   display: flex;
 }
 
-#ikon {
-  float: left;
-}
-
 * {
   transition: 1s;
-}
-.bold{
-	font-weight: bold;
 }
