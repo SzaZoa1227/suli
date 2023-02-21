@@ -99,10 +99,11 @@ td {
 
 #ikon {
   float: left;
-  margin-right: 40px;
-  margin-top: 20px;
 }
 
 * {
   transition: 1s;
+}
+.bold{
+	font-weight: bold;
 }
